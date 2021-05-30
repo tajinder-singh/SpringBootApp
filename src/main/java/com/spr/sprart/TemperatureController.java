@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TemperatureController {
 
     @GetMapping("/convert")
-    // @ResponseBody
+    @ResponseBody
     public double GetTemperature(@RequestParam double temperature, String unit) {
         if (unit.equals("F"))
             return (temperature - 32) * (5.0 / 9.0);
