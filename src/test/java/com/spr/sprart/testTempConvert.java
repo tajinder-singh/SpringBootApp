@@ -12,7 +12,7 @@ public class testTempConvert {
         double temperature = 22.0;
         String unit = "F";
         double result = underTest.GetTemperature(temperature, unit);
-        assertEquals(-5.555555555555555, result, "Test result failed");
+        assertEquals(-2.555555555555555, result, "Test result failed");
 
     }
 
