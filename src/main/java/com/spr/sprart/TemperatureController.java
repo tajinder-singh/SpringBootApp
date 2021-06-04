@@ -29,6 +29,5 @@ public class TemperatureController {
             return num2;
 
     }
-System.out.println("fkdfkdjfkd");
 
 }
