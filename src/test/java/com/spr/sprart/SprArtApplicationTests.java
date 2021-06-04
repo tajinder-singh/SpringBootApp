@@ -18,7 +18,7 @@ class SprArtApplicationTests {
         double temperature = 22.0;
         String unit = "F";
         double result = underTest.GetTemperature(temperature, unit);
-        assertEquals(-2.555555555555555, result, "Test result failed");
+        assertEquals(-3.555555555555555, result, "Test result failed");
 
     }
 
