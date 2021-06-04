@@ -15,10 +15,10 @@ class SprArtApplicationTests {
     public void testTempConversion() throws Throwable {
 
         TemperatureController underTest = new TemperatureController();
-        double temperature = 22.0;
-        String unit = "F";
+        double temperature = 27.0;
+        String unit = "";
         double result = underTest.GetTemperature(temperature, unit);
-        assertEquals(-3.555555555555555, result, "Test result failed");
+        assertEquals(80.6, result, "Test result failed");
 
     }
 
